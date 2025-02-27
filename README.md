@@ -7,4 +7,4 @@
 - Set timers to set with '+' or '-' keys.
 - Click display area and see what is going on.
 
-<a href="https://ilyas9461.github.io/pomodoro-clock/" target="_blank"> Live demo </a>
+## <a href="https://ilyas9461.github.io/pomodoro-clock/" target="_blank"> Live demo </a>
