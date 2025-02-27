@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+    <title>Pomodoro Clock</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Pomodoro Clock lys-2025 &#169</h1>
+        </header>
+        <section>
+            <div class="break">
+
+                <p>BREAK LENGTH</p>
+                <div>
+                    <a id="break-length-plus">+</a>
+                    <h2 id="break-content">1</h2>
+                    <a id="break-length-minus">-</a>
+                </div>
+            </div>
+            <div class="length">
+                <p>SESSION LENGTH</p>
+                <div>
+                    <a id="session-length-plus">+</a>
+                    <h2 id="session-content">1</h2>
+                    <a id="session-length-minus">-</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="display">
+                <div>
+                    <h1 id="display-session">SESSION</h1>
+                </div>
+                <!-- <input type="range" min="1" max="100" value="0" class="slider" id="myRange"> -->
+                <div class="slider"></div>
+                <div>
+                    <h1 id="display-break">BREAK</h1>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
